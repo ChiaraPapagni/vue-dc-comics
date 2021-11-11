@@ -29,7 +29,7 @@ export default {};
 @import "../assets/scss/variables.scss";
 
 #site_header {
-  padding: 1rem;
+  padding: 1.5rem 0;
 
   .navbar {
     display: flex;
@@ -53,7 +53,7 @@ export default {};
       text-decoration: none;
       text-transform: uppercase;
       margin: 0 1rem;
-      padding: 2rem 0;
+      padding: 3.2rem 0;
 
       &.active {
         color: $dc_primary_color;
