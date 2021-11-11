@@ -24,8 +24,9 @@ export default {
 <style lang="scss">
 @import "./assets/scss/variables.scss";
 @import "./assets/scss/common.scss";
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Roboto:wght@300;400;500&display=swap");
 
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
 }
 </style>
