@@ -51,7 +51,21 @@
     </div>
     <!-- /.footer_top -->
 
-    <div class="footer_bottom"></div>
+    <div class="footer_bottom">
+      <div class="container">
+        <div class="sign_up">
+          <a href="">Sign-up now!</a>
+        </div>
+        <div class="social">
+          <h3>Follow us</h3>
+          <img src="../assets/img/footer-facebook.png" alt="facebook" />
+          <img src="../assets/img/footer-twitter.png" alt="twitter" />
+          <img src="../assets/img/footer-youtube.png" alt="youtube" />
+          <img src="../assets/img/footer-pinterest.png" alt="pinterest" />
+          <img src="../assets/img/footer-periscope.png" alt="periscope" />
+        </div>
+      </div>
+    </div>
     <!-- /.footer_bottom -->
   </footer>
   <!-- /#site_footer -->
@@ -62,6 +76,8 @@ export default {};
 </script>
 
 <style lang="scss">
+@import "../assets/scss/variables.scss";
+
 .footer_top {
   background-image: url(../assets/img/footer-bg.jpg);
 
@@ -89,6 +105,41 @@ export default {};
           font-size: 0.85rem;
           text-decoration: none;
         }
+      }
+    }
+  }
+}
+
+.footer_bottom {
+  background-color: $dc_dark_gray_color;
+  padding: 3rem 0;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .sign_up {
+      a {
+        color: #fff;
+        text-decoration: none;
+        text-transform: uppercase;
+        padding: 0.8rem;
+        border: 2px solid $dc_primary_color;
+      }
+    }
+
+    .social {
+      display: flex;
+      align-items: center;
+
+      h3 {
+        color: $dc_primary_color;
+        text-transform: uppercase;
+      }
+
+      img {
+        margin-left: 1rem;
       }
     }
   }
