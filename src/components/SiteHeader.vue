@@ -53,7 +53,7 @@ export default {};
       text-decoration: none;
       text-transform: uppercase;
       margin: 0 1rem;
-      padding: 3.2rem 0;
+      padding: 2.9rem 0;
 
       &.active {
         color: $dc_primary_color;
