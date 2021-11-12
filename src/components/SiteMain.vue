@@ -2,6 +2,7 @@
   <main id="site_main">
     <img src="../assets/img/jumbotron.jpg" class="jumbotron" />
     <section class="container">
+      <h2>Current Series</h2>
       <div class="comics_cards row">
         <ComicsCard
           v-for="element in comics"
@@ -134,8 +135,27 @@ export default {
     object-position: top;
   }
 
-  .comics_cards {
-    padding-top: 2rem;
+  .container {
+    position: relative;
+
+    h2 {
+      display: inline-block;
+      position: absolute;
+      top: -2rem;
+      left: -1rem;
+      background-color: $dc_primary_color;
+      color: #fff;
+      font-size: 1.6rem;
+      font-weight: bold;
+      text-align: center;
+      text-decoration: none;
+      text-transform: uppercase;
+      padding: 0.7rem 2rem;
+    }
+
+    .comics_cards {
+      padding-top: 3rem;
+    }
   }
 
   .load_more {
