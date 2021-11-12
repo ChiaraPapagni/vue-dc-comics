@@ -153,7 +153,9 @@ export default {
       padding: 0.7rem 2rem;
     }
 
-    .comics_cards {
+    .row {
+      justify-content: center;
+      gap: 1rem;
       padding-top: 3rem;
     }
   }
