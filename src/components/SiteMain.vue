@@ -12,6 +12,7 @@
         />
       </div>
       <!-- /.comics_cards -->
+      <p class="load_more">Load more</p>
     </section>
     <!-- /.container -->
   </main>
@@ -124,6 +125,7 @@ export default {
 #site_main {
   background-color: $dc_dark_color;
   color: #fff;
+  padding-bottom: 1rem;
 
   .jumbotron {
     width: 100%;
@@ -133,7 +135,21 @@ export default {
   }
 
   .comics_cards {
-    padding: 2rem;
+    padding-top: 2rem;
+  }
+
+  .load_more {
+    width: 200px;
+    margin: auto;
+    background-color: $dc_primary_color;
+    color: #fff;
+    font-size: 0.85rem;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0.7rem 0;
+    cursor: pointer;
   }
 }
 </style>
