@@ -29,7 +29,7 @@ export default {};
 @import "../assets/scss/variables.scss";
 
 #site_header {
-  padding: 1.5rem 0;
+  padding: 1.2rem 0;
 
   .navbar {
     display: flex;
